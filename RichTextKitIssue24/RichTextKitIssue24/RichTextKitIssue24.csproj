@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="HarfBuzzSharp" Version="2.6.1.7" />
     <PackageReference Include="SkiaSharp.Views.Forms" Version="2.80.2" />
     <PackageReference Include="Topten.RichTextKit" Version="0.3.133" />
     <PackageReference Include="Xamarin.Forms" Version="4.7.0.1351" />

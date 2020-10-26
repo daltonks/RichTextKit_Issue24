@@ -22,6 +22,11 @@ namespace RichTextKitIssue24
                 .Add("Big text", fontSize: 40)
                 .Add("Little text", fontSize: 12);
             richString.Paint(canvas, new SKPoint(0, 100));
+
+            richString = new RichString()
+                .Add("Big text", fontSize: 40, letterSpacing: 0)
+                .Add("Little text", fontSize: 12, letterSpacing: 0);
+            richString.Paint(canvas, new SKPoint(0, 150));
         }
     }
 }
